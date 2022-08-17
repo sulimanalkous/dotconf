@@ -1,0 +1,7 @@
+scale = fit
+fullscreen = no
+background = no
+window = #112233
+info = yes
+font = monospace 14
+sway = yes
