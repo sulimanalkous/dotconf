@@ -74,6 +74,9 @@ input "4152:5648:SteelSeries_SteelSeries_Apex_Pro" {
 
 # Lock  screen after 30 minutes and turn it off 5 second after
 exec_always ~/.config/scripts/lock.sh
+
+#for_window [class="vlc"] inhibit_idle fullscreen
+for_window [app_id="vlc"] inhibit_idle fullscreen
 # exec swayidle -w \
 # 	timeout 1800 'swaylock -f' \
 # 	timeout 1805 'swaymsg "output * dpms off"' \
